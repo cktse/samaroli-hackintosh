@@ -13,7 +13,7 @@ A custom, hardline watercooling loop Hackintosh built using OpenCore bootloader.
 |WiFi/BT|fenvi|FV-T919 Wireless Network Adapter|
 |10G Ethernet|LR-LINK|94T0255 PCIe x4 10G SIngle-Port Server Adapter|
 |RAID Card|Highpoint|RocketRAID 2721 (1xInt/1xExt Mini-SAS ports)|
-|Cooling Fan|ThermalTake|Riing Trio 12 x6|
+|Fans|ThermalTake|Riing Trio 12 x6|
 |Fan Hub|ThermalTake|TT Sync Controller|
 |RGB Hub|Gamer Storm|5V DRGB to 12V ARGB Convertor/Hub|
 |USB Hub|Generic|PAN8USB-G01 USB3.0/2.0 x2 PCB Internal Hub|
@@ -27,7 +27,7 @@ A custom, hardline watercooling loop Hackintosh built using OpenCore bootloader.
 |Distro Plate/Pump|EKWB|O11 Dynamic XL Distro Plate G1 D-RGB + DDC 3.1 PWM|
 |CPU Waterblock|EKWB|EK-Velocity RGB - Full Nickel|
 |GPU Waterblock|EKWB|EK-Quantum Vector Strix RX 5700 +XT D-RGB - Nickel + Plexi with Nickel Blackplate|
-|Radiator|EKWB|EK Coolstream Classic PE 360 x2|
+|Radiators|EKWB|EK Coolstream Classic PE 360 x2|
 |Fittings|EKWB|EK-HTC Classic 16mm – Black Nickel|
 |Tubings|Bitpower|16mm Outer Diameter PETG hard tubings|
 |Coolant|EKWB|EK Cryofuel Concentrate - Amber Orange|
