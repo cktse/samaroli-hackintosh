@@ -40,4 +40,6 @@ A water-cooled Hackintosh with custom hardline loop, using OpenCore bootloader!
 |Storage|Toshiba|Enterprise Series 10T HDD x4|
 
 ## Build Notes
-- The Lian Li O11 Dynamic XL case comes with 4x USB 3.0/2.0 ports (plus an USB 3.1 Type C port). I used an internal PCB USB 3.0/2.0 hub to support all 4 ports.
+- Planning and bending hardline PETG tubes was hard but a lot of fun!
+- Getting all the RGB wired up was unexpectedly challenging. Gigabyte Z390 Designare supports only 12V ARGB (analog) but not 5V DRGB (digital). I ended up with mixed ARGB and DRGB devices connected to the analog motherboard using Gamer Storm's DRGB to ARGB converter hub. I was able to synchronize RGB via Gigabyte's AmbientLED app -- very barebone but servicable. Note that some of the lighting effects are not perfect, but good enough for what I want.
+- The Lian Li O11 Dynamic XL case comes with 4x USB 3.0/2.0 ports (plus an USB 3.1 Type C port). I used an internal USB 3.0/2.0 hub PCB connected to F_USB30 (HS05/SS05 and HS06/SS06) to support all 4 physical ports.
