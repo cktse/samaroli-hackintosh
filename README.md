@@ -38,3 +38,6 @@ A water-cooled Hackintosh with custom hardline loop, using OpenCore bootloader!
 |---|---|---|
 |Enclosure|Stardom|4 HDD eSata enclosure|
 |Storage|Toshiba|Enterprise Series 10T HDD x4|
+
+## Build Notes
+- The Lian Li O11 Dynamic XL case comes with 4x USB 3.0/2.0 ports (plus an USB 3.1 Type C port). I used an internal PCB USB 3.0/2.0 hub to support all 4 ports.
