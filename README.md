@@ -1,5 +1,5 @@
 # Samaroli
-A custom, hardline watercooling loop Hackintosh built using OpenCore bootloader.
+A water-cooled Hackintosh with custom hardline loop, using OpenCore bootloader!
 
 ## Main PC Parts
 
