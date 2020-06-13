@@ -40,6 +40,8 @@ A water-cooled Hackintosh with custom hardline loop, using OpenCore bootloader!
 |Storage|Toshiba|Enterprise Series 10T HDD x4|
 
 ## Build Notes
-- Planning and bending hardline PETG tubes was hard but a lot of fun!
+- First time getting into watercooling -- planning and bending hardline PETG tubes was hard but a lot of fun!
 - Getting all the RGB wired up was unexpectedly challenging. Gigabyte Z390 Designare supports only 12V ARGB (analog) but not 5V DRGB (digital). I ended up with mixed ARGB and DRGB devices connected to the analog motherboard using Gamer Storm's DRGB to ARGB converter hub. I was able to synchronize RGB via Gigabyte's AmbientLED app -- very barebone but servicable. Note that some of the lighting effects are not perfect, but good enough for what I want.
 - The Lian Li O11 Dynamic XL case comes with 4x USB 3.0/2.0 ports (plus an USB 3.1 Type C port). I used an internal USB 3.0/2.0 hub PCB connected to F_USB30 (HS05/SS05 and HS06/SS06) to support all 4 physical ports.
+- This is also my first OpenCore build. For my own learning and education, I chose not to take a pre-built EFI package as-is. I followed Dortania's very well-written [OpenCore Desktop Guide](https://dortania.github.io/OpenCore-Desktop-Guide/) to customize my own config.plist and SSDT's -- the idea is that I want to understand the exact purpose of every changes to the sample.plist before I add to mine.
+- CaseSJ's incredibly detailed [guide](https://www.tonymacx86.com/threads/success-gigabyte-designare-z390-thunderbolt-3-i7-9700k-amd-rx-580.267551/) on this motherboard also provided a wealth of information to explore (the thread is 2,254 pages long as of this writing!)
