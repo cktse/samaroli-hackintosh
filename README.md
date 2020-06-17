@@ -1,5 +1,7 @@
 # Samaroli
-A water-cooled Hackintosh with custom hardline loop, using OpenCore bootloader!
+A water-cooled Hackintosh with custom hardline loop, using OpenCore bootloader! 
+
+My first attempt into building a custom hardline water-cooling loop, as well as my first attempt into an OpenCore build -- I have been using a Hackintosh as my main machine for over 10 years -- my last major upgrade was back in 2012 on a Gigabyte GA-Z77X-UP5 TH. It had served me well but large Lightroom edits and hires DSD streaming were starting to feel sluggish. This build is therefore intended to be a starting from scratch, major overhaul.
 
 ## Main PC Parts
 
