@@ -49,29 +49,29 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                         "UsbConnector", 3,
                         "port", Buffer() { 7, 0, 0, 0 },
                     },
-                    "HS09", Package() // Rear Black Right Hand USB 2.0 (SS09 disabled)
+                    "HS09", Package() // Rear Black Right Hand USB 2.0
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", Zero,
                         "port", Buffer() { 9, 0, 0, 0 },
                     },
-                    "HS10", Package() // Rear Black Left Hand USB 2.0 (SS10 disabled)
+                    "HS10", Package() // Rear Black Left Hand USB 2.0
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", Zero,
                         "port", Buffer() { 10, 0, 0, 0 },
                     },
                     "HS11", Package() // Internal motherboard header => Fenvi T919 Bluetooth
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0xFF,
                         "port", Buffer() { 11, 0, 0, 0 },
                     },
                     "HS12", Package() // Internal motherboard header => Fenvi T919 Bluetooth
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 0xFF,
                         "port", Buffer() { 12, 0, 0, 0 },
                     },
                     "SS01", Package() // Front Panel USB 3.1 Gen 2 Type C (HS01 disabled)
                     {
-                        "UsbConnector", 3,
+                        "UsbConnector", 9,
                         "port", Buffer() { 17, 0, 0, 0 },
                     },
                     "SS03", Package() // Rear Top Red USB 3.1 port
